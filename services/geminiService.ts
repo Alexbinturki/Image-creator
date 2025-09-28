@@ -12,7 +12,8 @@ const extractBase64Data = (base64: string): string => {
 const getApiKey = (): string => {
     // Obfuscated key to make it harder to find.
     const part1 = 'AIzaSyCNpICCYnSEcDl5p';
-    const part2 = 'sT7od8IK3ddKN5vOZ'.split('').reverse().join(''); // Reversed "ZOvS5NKdd3KI8do7Ts"
+    // Corrected the reversed string to form the valid API key.
+    const part2 = 'sT7od8IK3ddKN5SvOZ'.split('').reverse().join(''); // Reversed "ZOvS5NKdd3KI8do7Ts"
     return `${part1}${part2}`;
 }
 
