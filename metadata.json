@@ -1,0 +1,5 @@
+{
+  "name": "AI National Pride Portrait Generator",
+  "description": "An application that uses the Gemini (Nano Banana) model to create a professional studio portrait of a user wrapped in their country's flag.",
+  "requestFramePermissions": []
+}
