@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
-import { ImageUploader } from './components/ImageUploader';
-import { Spinner } from './components/Spinner';
-import { generateProfileImage } from './services/geminiService';
-import { DownloadIcon } from './components/icons';
+import { ImageUploader } from './components/ImageUploader.tsx';
+import { Spinner } from './components/Spinner.tsx';
+import { generateProfileImage } from './services/geminiService.ts';
+import { DownloadIcon } from './components/icons.tsx';
 
 const App: React.FC = () => {
   const [personImage, setPersonImage] = useState<string | null>(null);

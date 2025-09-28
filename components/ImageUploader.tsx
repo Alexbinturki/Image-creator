@@ -1,7 +1,6 @@
-
 import React, { useState, useRef, useCallback } from 'react';
-import { fileToBase64 } from '../utils/fileUtils';
-import { UploadIcon, CheckCircleIcon } from './icons';
+import { fileToBase64 } from '../utils/fileUtils.ts';
+import { UploadIcon, CheckCircleIcon } from './icons.tsx';
 
 
 interface ImageUploaderProps {
